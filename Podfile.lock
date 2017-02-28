@@ -1,0 +1,54 @@
+PODS:
+  - AVOSCloud (3.4.4)
+  - AVOSCloudCrashReporting (3.4.4):
+    - AVOSCloud (= 3.4.4)
+    - AVOSCloudCrashReporting/_ARC (= 3.4.4)
+    - AVOSCloudCrashReporting/_NOARC (= 3.4.4)
+  - AVOSCloudCrashReporting/_ARC (3.4.4):
+    - AVOSCloud (= 3.4.4)
+    - AVOSCloudCrashReporting/_NOARC (= 3.4.4)
+  - AVOSCloudCrashReporting/_NOARC (3.4.4):
+    - AVOSCloud (= 3.4.4)
+  - AVOSCloudIM (3.4.4):
+    - AVOSCloud (= 3.4.4)
+    - AVOSCloudIM/_ARC (= 3.4.4)
+    - AVOSCloudIM/_NOARC (= 3.4.4)
+  - AVOSCloudIM/_ARC (3.4.4):
+    - AVOSCloud (= 3.4.4)
+    - AVOSCloudIM/_NOARC (= 3.4.4)
+  - AVOSCloudIM/_NOARC (3.4.4):
+    - AVOSCloud (= 3.4.4)
+  - DateTools (1.7.0)
+  - DXPopover (0.1.1)
+  - JSBadgeView (1.4.1)
+  - MJRefresh (3.1.12)
+  - pop (1.0.9)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudCrashReporting
+  - AVOSCloudIM
+  - DateTools
+  - DXPopover
+  - JSBadgeView
+  - MJRefresh
+  - pop (~> 1.0)
+  - SDWebImage (~> 3.8)
+
+SPEC CHECKSUMS:
+  AVOSCloud: 50a81ba9fe043750592355d13589b108771f3724
+  AVOSCloudCrashReporting: b1e94cb0929b1f7b688d8c7995b248583af2b58d
+  AVOSCloudIM: ad650bf0635e95b12d1aec156131b71d320086d2
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  DXPopover: 13e6bbd1a0da4e62b2190de51f43a94850769e0f
+  JSBadgeView: 3861ddee41094284d9468e6d0af5107f703aaac5
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: c7c99c189e43504e70f2973032ab22bbf0b0d6c2
+
+COCOAPODS: 1.0.1

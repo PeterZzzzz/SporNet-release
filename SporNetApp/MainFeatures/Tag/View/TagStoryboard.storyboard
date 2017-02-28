@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="K2P-OD-JMM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="W11-pP-3fZ">
+            <objects>
+                <navigationController id="K2P-OD-JMM" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5jm-DJ-flX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2iZ-yV-hNm" kind="relationship" relationship="rootViewController" id="onr-v1-fOq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fec-Zg-0qo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-24" y="301"/>
+        </scene>
+        <!--Tag Main View Controller-->
+        <scene sceneID="jlS-vw-SF8">
+            <objects>
+                <viewController id="2iZ-yV-hNm" customClass="SNTagMainViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="N12-ML-Oji"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="bh1-b8-oIl" kind="show" identifier="toSecondTagVC" id="bAF-Jh-sPr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WmD-a9-2jT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="412" y="186"/>
+        </scene>
+        <!--Tag Second View Controller-->
+        <scene sceneID="vC7-xi-H2e">
+            <objects>
+                <viewController id="bh1-b8-oIl" customClass="SNTagSecondViewController" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="270-9R-1Va" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="813" y="186"/>
+        </scene>
+    </scenes>
+</document>

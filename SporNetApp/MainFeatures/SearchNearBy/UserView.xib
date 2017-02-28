@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserView">
+            <connections>
+                <outlet property="profileImageButton" destination="233-Be-XSt" id="TVh-1G-L9B"/>
+                <outlet property="view" destination="iN0-l3-epB" id="yvS-Tv-TUf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="61" height="61"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="233-Be-XSt">
+                    <rect key="frame" x="0.0" y="0.0" width="61" height="61"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="233-Be-XSt" secondAttribute="trailing" id="Jke-sC-jDk"/>
+                <constraint firstAttribute="bottom" secondItem="233-Be-XSt" secondAttribute="bottom" id="ecO-cI-bue"/>
+                <constraint firstItem="233-Be-XSt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hld-Dw-oq9"/>
+                <constraint firstItem="233-Be-XSt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jO1-u2-WgW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="259.5" y="491.5"/>
+        </view>
+    </objects>
+</document>

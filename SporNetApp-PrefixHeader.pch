@@ -1,0 +1,24 @@
+//
+//  SporNetApp-PrefixHeader.pch
+//  SporNetApp
+//
+//  Created by 浦明晖 on 8/17/16.
+//  Copyright © 2016 Peng Wang. All rights reserved.
+//
+
+#ifndef SporNetApp_PrefixHeader_pch
+#define SporNetApp_PrefixHeader_pch
+#import "globalMacros.h"
+#import <AVIMClient.h>
+#import <AVConstants.h>
+#import <AVOSCloud.h>
+#import <AVIMConversationQuery.h>
+#import <AVIMConversation.h>
+#import "ProgressHUD.h"
+#import <AVIMTextMessage.h>
+#import <AVIMConversation.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SporNetApp_PrefixHeader_pch */

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SNFriendRequestCell" rowHeight="100" id="KGk-i7-Jjw" customClass="SNFriendRequestCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user4" translatesAutoresizingMaskIntoConstraints="NO" id="ALM-wA-nPP">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="2oI-ni-JH2"/>
+                            <constraint firstAttribute="height" constant="50" id="coJ-g2-7nK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yamada Ryosuke" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bel-ao-5Hg">
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Northeastern University" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KV-JG-mxS">
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uq-Em-3rX">
+                        <color key="backgroundColor" red="0.33604918020000002" green="0.76349806750000004" blue="0.3752569811" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="tpI-sN-GNK"/>
+                            <constraint firstAttribute="width" constant="65" id="yd7-wb-VJf"/>
+                        </constraints>
+                        <state key="normal" title="Accept">
+                            <color key="titleColor" red="0.9501201923" green="0.9501201923" blue="0.9501201923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="acceptButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="K0M-DV-bpe"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="du6-8J-JZV">
+                        <color key="backgroundColor" red="0.33604918020000002" green="0.76349806750000004" blue="0.3752569811" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Hia-0g-uwy"/>
+                            <constraint firstAttribute="width" constant="65" id="rm7-uG-eRK"/>
+                        </constraints>
+                        <state key="normal" title="Remove">
+                            <color key="titleColor" red="0.9501201923" green="0.9501201923" blue="0.9501201923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="removeButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="WlJ-S4-j6r"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soccer" translatesAutoresizingMaskIntoConstraints="NO" id="bj0-yr-bcR">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="0KY-id-ay2"/>
+                            <constraint firstAttribute="width" constant="18" id="mA4-xR-e9i"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ALM-wA-nPP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="0Xw-d4-H5u"/>
+                    <constraint firstItem="ALM-wA-nPP" firstAttribute="top" secondItem="bj0-yr-bcR" secondAttribute="bottom" constant="-12" id="1d6-rJ-Oku"/>
+                    <constraint firstItem="Bel-ao-5Hg" firstAttribute="leading" secondItem="ALM-wA-nPP" secondAttribute="trailing" constant="18" id="4Nw-ix-CaF"/>
+                    <constraint firstItem="ALM-wA-nPP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="5yk-Gl-0gi"/>
+                    <constraint firstItem="du6-8J-JZV" firstAttribute="top" secondItem="3uq-Em-3rX" secondAttribute="top" id="KpH-Ai-b33"/>
+                    <constraint firstItem="2KV-JG-mxS" firstAttribute="top" secondItem="Bel-ao-5Hg" secondAttribute="bottom" constant="5" id="Lfa-EY-Xn8"/>
+                    <constraint firstItem="bj0-yr-bcR" firstAttribute="leading" secondItem="ALM-wA-nPP" secondAttribute="trailing" constant="-14" id="Prh-Qv-oo8"/>
+                    <constraint firstItem="Bel-ao-5Hg" firstAttribute="top" secondItem="ALM-wA-nPP" secondAttribute="top" id="Wwj-hn-8ne"/>
+                    <constraint firstItem="du6-8J-JZV" firstAttribute="leading" secondItem="3uq-Em-3rX" secondAttribute="trailing" constant="30" id="gtu-mj-bFs"/>
+                    <constraint firstItem="2KV-JG-mxS" firstAttribute="leading" secondItem="Bel-ao-5Hg" secondAttribute="leading" id="hlR-aJ-Zxl"/>
+                    <constraint firstItem="3uq-Em-3rX" firstAttribute="top" secondItem="2KV-JG-mxS" secondAttribute="bottom" constant="6" id="oae-Hn-Mdo"/>
+                    <constraint firstItem="3uq-Em-3rX" firstAttribute="leading" secondItem="2KV-JG-mxS" secondAttribute="leading" id="uuB-se-UsD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bestSportImageView" destination="bj0-yr-bcR" id="TLC-BL-JPj"/>
+                <outlet property="nameLabel" destination="Bel-ao-5Hg" id="M7p-SC-ZBy"/>
+                <outlet property="schoolLabel" destination="2KV-JG-mxS" id="EJe-4g-WhX"/>
+                <outlet property="userImageView" destination="ALM-wA-nPP" id="ZoX-Lk-kpb"/>
+            </connections>
+            <point key="canvasLocation" x="162" y="302"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="soccer" width="58" height="58"/>
+        <image name="user4" width="400" height="400"/>
+    </resources>
+</document>

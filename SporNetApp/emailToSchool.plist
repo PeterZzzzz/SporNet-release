@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>brandeis.edu</key>
+	<array>
+		<string>Brandeis University</string>
+		<array>
+			<string>Around Campus</string>
+		</array>
+	</array>
+	<key>suffolk.edu</key>
+	<array>
+		<string>Suffork University </string>
+		<array>
+			<string>Regan Gymnasium</string>
+			<string>Residence Hall</string>
+			<string>Around Campus</string>
+		</array>
+	</array>
+	<key>umb.edu</key>
+	<array>
+		<string>Umass Boston </string>
+		<array>
+			<string>Clark Athletic Center</string>
+			<string>Beacon Fitness Center</string>
+			<string>Around Campus</string>
+		</array>
+	</array>
+	<key>uml.edu</key>
+	<array>
+		<string>Umass Lowell </string>
+		<array>
+			<string>The Riverview Fitness Center</string>
+			<string>Around Campus</string>
+		</array>
+	</array>
+	<key>umass.edu</key>
+	<array>
+		<string>Umass Amherst </string>
+		<array>
+			<string>Around Campus</string>
+		</array>
+	</array>
+	<key>bc.edu</key>
+	<array>
+		<string>Boston College</string>
+		<array>
+			<string>Around Campus</string>
+		</array>
+	</array>
+	<key>tufts.edu</key>
+	<array>
+		<string>Tufts University</string>
+		<array>
+			<string>Around Campus</string>
+		</array>
+	</array>
+	<key>mit.edu</key>
+	<array>
+		<string>MIT </string>
+		<array>
+			<string>Around Campus</string>
+		</array>
+	</array>
+	<key>harvard.edu</key>
+	<array>
+		<string>Harvard University </string>
+		<array>
+			<string>Around Campus</string>
+		</array>
+	</array>
+	<key>bu.edu</key>
+	<array>
+		<string>Boston University</string>
+		<array>
+			<string>Boston University Fitness Center </string>
+			<string>Around Campus</string>
+		</array>
+	</array>
+	<key>neu.edu</key>
+	<array>
+		<string>Northeastern University</string>
+		<array>
+			<string>Marino Center</string>
+			<string>Cabot Center</string>
+			<string>Badger &amp; Rosen</string>
+			<string>NU Open Skate</string>
+			<string>Around Campus</string>
+		</array>
+	</array>
+	<key>husky.neu.edu</key>
+	<array>
+		<string>Northeastern University</string>
+		<array>
+			<string>Marino Center</string>
+			<string>Cabot Center</string>
+			<string>Badger &amp; Rosen</string>
+			<string>NU Open Skate</string>
+			<string>Around Campus</string>
+		</array>
+	</array>
+</dict>
+</plist>
